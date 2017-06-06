@@ -1,0 +1,24 @@
+@media screen and (max-width: 480px) 
+{
+	p:active
+	{
+	color: red;
+	}
+	
+	a:link
+	{
+	background-color: pink;	
+	}
+	
+	p::first-letter
+	{
+	color: white;
+	background-color: black;
+	}
+	
+	p::before
+	{
+	 content: '-';
+	 color: pink;
+	}
+}
